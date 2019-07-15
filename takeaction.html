@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+  <style>
+   
+    .row{
+          //margin-top:-700px;
+          text-color:white;
+          text-decoration:none;
+          font-family: "Roboto", sans-serif;
+          font-size:15px;
+          text-align:center;
+          
+          
+        }
+        .main-nav li{
+          display:inline-block;
+          padding:25px;
+
+        }
+       .main-nav li a{
+         text-decoration:none;
+         color:black;
+         
+       }
+       .page{
+         background-color:rgb(252, 211, 231);
+       }
+    p{
+      margin-top:-700px;
+      text-align:center;
+      font-weight:bold;
+      color:black;
+      font-size:23px;
+      font-family: 'Allerta', Helvetica, Arial, sans-serif;
+      margin-top:-10px;
+      line-height:20px; 
+    }
+    div.head{
+      background:rgb(255, 252, 189);
+      padding:20px;
+      padding-top:35px;
+    }
+   
+    #pic{
+      width:600px;
+      height:600px;
+      padding:10px;
+      margin:70px;
+     
+    }
+    #container{
+      width:800px;
+      overflow:hidden;
+      margin:auto;
+      padding:auto;
+    }
+    #sliderbox{
+      position:relative;
+      width:3200px;
+      animation-name: slideranimation;
+      animation-duration:20s;
+      animation-iteration-count:infinite;
+      
+
+    }
+     @keyframes slideranimation{
+
+       0%{
+         left:0px;
+       }
+       20%
+       {
+         left:0px;
+       }
+       25%
+       {
+         left:-800px;
+       }
+       45%
+       {
+         left:-800px;
+       }
+       50%
+       {
+         left:-1600px;
+       }
+       70%
+       {
+         left:-1600px;
+       }
+      
+     }
+     #what-you-can-do{
+       text-align:left;
+       color:rgb(168, 109, 109);
+       font-size:35px;
+       margin-left:-50px;
+     }
+     
+     #main-par{
+       text-align:right;
+      font-size:20px;
+      font-weight:normal;
+      margin-right:-50px;
+      
+     }
+     .action{
+       width:50%;
+       margin:auto;
+     }
+     #order-form{
+       margin:auto;
+       font-size:20px;
+       text-align:center;
+       padding-top:30px;
+       font-weight:normal;
+
+     }
+     #order{
+       background-color:rgb(255, 252, 189);
+       padding:40px;
+       margin-top:50px;
+    
+     }
+     #quote-mark{
+       margin-top:100px;
+       color:rgb(99, 98, 99);
+
+     }
+     #the-quote{
+       text-align:center;
+       //padding:30px;
+       //margin-top:100px;
+       font-size:50px;
+       letter-spacing: 2px;
+       line-height:40px;
+       color:rgb(99, 98, 99);
+     }
+     #name{
+       font-size:15px;
+       text-align:center;
+       color:rgb(99, 98, 99);
+       padding-bottom:30px;
+     }
+    
+    </style>
+  <body>
+     <div class="row">
+          <ul class="main-nav">
+            <li><a href="./index.html"><b>Home</b></a></li>
+            <li><a href="./about.html"><b>About</b></a></li>
+            <li><a href="./takeaction.html"><b>Take Action</b></a></li>
+            <li><a href=""><b>Learn More</b></a></li>
+          </ul>
+        </div>  
+
+        <div class="page">
+    <div class="head">
+    <p>Buy a Bracelet<br>
+      </br>Educate a Girl<p>
+        </div>
+        <div id="container">
+          <div id="sliderbox">
+        <img id="pic" src="./bracelets.jpg">
+        <img id="pic" src="./bracelet1.JPG">
+        <img id="pic" src="./bracelet2.JPG">
+        </div>
+        </div>
+
+        <div class="action">
+          <h3 id="what-you-can-do">What you can do</h3>
+        </div>
+        
+        <div class="action">
+          <p id="main-par"><em>Fem for the Future</em> has 1 goal, and that is to help educate girls. We'd love to give our two cents, and trust me, every penny counts. Here's where your help is needed- you can buy the Fem Shell Bracelet(s) and help raise money to send a girl to school! All of the profit made from these bracelets will be donated to <a href="https://www.womenone.org/" target="_blank">WomenOne.org</a>, and organization which is dedicated to educating girls around the world.</p>
+        </div>  
+
+          <div id="order">
+          <p id="order-form" ><a href="https://forms.gle/jb5DftzFFmjpPWU48" target="_blank">Bracelet Order Form</a></p>
+          </div>
+          
+
+          <p id="quote-mark">&#8221;</p>
+
+          <div id="quote">
+            <h2 id="the-quote">We rise by <br>
+            </br>lifting others</h2>
+            <p id="name">Robert Ingersoll</p>
+          </div>
+          </div>
+  </body>
+</html>
